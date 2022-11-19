@@ -1,0 +1,160 @@
+// ******************************
+// *   Software Engineering I   * 
+// *   Kristian Hasenjäger      *
+// ******************************
+//
+// FX: Gradle Build-File für Java-FX Projekte
+// Rev. history:
+//     1.0.2 Update: JavaFX V. 16 --> 17 LTS
+//     1.0.1 Update: JavaFX V. 11 --> 16, FX Gradle Plugin 0.0.8 --> 0.0.10
+//     1.0.0 Initial Version 2020
+//
+// Im Unterschied zum "allgemeinen" SE1-Gradle-Build File ist 
+// dieses für JavaFX erweitert: 
+//		1.) Einbildung des FX-plugins, welches wiederum u.a. die FX-Dependencies definiert.
+//		2.) Angabe der nötigen FX-Module (ganz unten) 
+//
+//
+// Wichtigste gradle tasks:  
+//		clean		=Säubern (class-files, Testergebnisse, JARs etc. löschen)
+//		classes		=Java Quellcode kompilieren
+//		test		=Unit tests durchführen sofern vorhanden,
+//		run			=Main Klasse (s.u.) ausführen
+//		jar			=JAR erzeugen und Main Klasse in Manifest Datei eintragen, JAR kommt in builds/libs
+//
+
+
+
+
+/*
+*	Zusatzmodule die u.a. tasks definieren
+*	id 'application': Ermöglichst Java Task "run" und erweiterte Packaging Verfahren (JAR, ZIP... )
+*	Benötigt Definition von  "mainClassName" (s.u.)
+*	Inkludiert von sich aus das plugin "java"
+*	Muss im build skript als erste Anweisung erscheinen!
+*/
+plugins {
+  id 'application'
+     // ermöglicht Java-FX Einbindung:
+  id 'org.openjfx.javafxplugin' version '0.0.10'
+}
+
+
+
+/*
+*	mainClassName
+*	*************
+*
+*	Damit Gradle weiss, welche Klasse es ausführen soll (d.h. welches main() gestartet wird)
+*	Soll das Projekt in ein JAR gepackt werden, so sollte dort ebenso diese Main Klasse 
+*	gekennzeichnet werden (siehe unten).
+*/
+mainClassName = 'se1.hu5.javafx.Temperaturkonverter'
+
+
+/*
+*	Repositories:
+*	*************
+*	
+*	Hier sucht Gradle nach den in Dependencies aufgelisteten Ressourcen, sofern nicht 
+*	im Projekt selbst zu finden sind. H
+*   Die JUnit5 libs holen wir uns von dort, da in den Dependencies angegeben: 
+*	https://search.maven.org/search?q=g:org.junit.jupiter 
+*/
+repositories {
+    mavenCentral()
+}
+
+
+/*
+*	Dependencies
+*	************
+*
+*	Äussere Abhängigkeiten, die für das Projekt benötigt werden.
+*	Dies können in Repositories (s.o.) gefunden werden, aber auch
+*	Lokal sofern explizit angegeben:
+*	Mehr Infos dazu: https://riptutorial.com/gradle/example/8349/add-a-local-jar-file-dependency
+*
+*	Für JUnit5 Tests benötigen wir zwei Abhängigkeiten
+*	(Das System JUnit5 wird auch "jupiter" genannt)
+*
+*/
+dependencies {
+    // Libraries für Junit5-Jupiter-Framework: 
+    testImplementation('org.junit.jupiter:junit-jupiter-api:5.5.2')
+    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.5.2')
+    testImplementation 'org.hamcrest:hamcrest-library:2.1'
+}
+
+
+
+
+/*
+*	JAR Erzeugung. 
+*	**************
+*
+*	Die JAR-Datei kann als "Die auslieferbare Software" betrachtet werden.
+*	Ist ein ZIP-Archiv, beinhaltet alle nötigen Ressourcen 
+*	Hat interne Konfigurationsdatei META-INF/MANIFEST
+*	Zielverzeichnis: build/libs
+* 
+*	Benötigt sinnvollerweise Angabe einer main()-Klasse (s.u.)
+*	Ausführen dann mit:  java -jar {Dateiname}.jar
+*
+*	Jede beliebige main()-Klasse im JAR ausführen:
+*	java -cp {jarName}.jar {paketName}.{klassenName} 
+*
+*/	 
+jar {
+		manifest {
+			attributes 'Main-Class': mainClassName
+		}
+  
+	// Ein "fat-JAR" (dickes JAR) erzeugen, d.h. alle nötigen libraries mit ins JAR packen
+	// Wird in Windows die Dateiendung "JAR" dann mit dem Befehl "{pfad}/bin/java -jar" assoziert,
+	// kann jede JAR-App mit Doppelklick gestartet werden.
+	from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
+}
+
+
+    
+/*
+*
+*	JUnit5 Test Rahmenwerk einbinden und konfigurieren
+*	Optional: Test Methoden in Testklasse filtern mit Java Annotationen, zB:  @Tag("schnell")
+*	Beachte, dass System.out.println("...") in Testmethoden von Gradle in eine Protokolldatei (builds/reports ... ) umgeleitet werden.
+*
+*/    
+test {
+	testLogging.showStandardStreams = true
+   	useJUnitPlatform {  
+		// Testmethoden filtern mit Java Annotationen @Tag("schnell")
+//     includeTags 'schnell', 'lahm'
+//     excludeTags 'ganz-lahm'
+    }
+}       
+
+/*
+*	JavaFX - Modulspezifikation
+*	***************************
+*
+*	JavaFX als Grafik-Bibliothek ist modular aufgebaut. Verwendete Module müssen hier explizit eingebunden werden.
+*/
+javafx {
+    version = "16"
+    // JavaFX ist modular aufgebaut. Die in der FX-Applikation verwendeten Module müssen hier aufgeführt werden:
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+
+task mciSrcZip(type: Zip) {
+    from projectDir
+    include 'src/**/*'
+    include '*.gradle'
+    include 'gradlew'
+    include 'gradlew.bat'
+    include 'gradle/**/*'
+    archiveFileName = "Assignment.zip"
+}
+
+

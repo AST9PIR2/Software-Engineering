@@ -1,0 +1,104 @@
+    @ParameterizedTest
+    @MethodSource("testDatensatzLieferant")
+    void testCalcMath(double expected,  String xs, String ys, char op) {
+
+        // System.out.println("Expected: "+ expected+ " <<- "+ xs +" "+ op+ " "+ys);
+        assertEquals(expected, uc.calc(xs,ys,op), PRECISION, "Expected: "+ expected+ " !=  "+ xs +" "+ op+ " "+ys);
+    }
+
+
+    // Konstaten für Grenzwertanalyse.
+    final static double MAX=   1000.0;
+    final static double MIN=   -1000.0;
+    final static double DELTA= 0.001;      // Nahe Delta-Umgebung für drei kritische Grenzwerte MIN,0,MAX
+    final static double Q =    314.1592;   // Zweiter (Dummy-)Parameter 1 oder 2, eher "gutmütig", muss > DELTA und kleiner MAX sein
+    final static double PRECISION= 1E-8;   // Gewährte absolute Abweichung bei Berechnungen mit double Datentypen
+
+
+    /** Liefert Testdaten für Grenzwertanalyse innerhalb _gültigem_ Wertebereich
+     *  Hier in Form einer Tabelle. KLar liesse sich diese auch durch Permutationen "on the fly" erzeugen,
+     *  jedoch soll hier die Testdatengenerierung möglichst klar und gut nachvollziehbar erfolgen, was auch der Testgüte zugute kommt.
+     *
+     * @return Stream Objekt, welches von Testmethode "konsumiert" wird, vgl. https://www.geeksforgeeks.org/stream-in-java/
+     */
+    private static Stream<Arguments> testDatensatzLieferant() {
+        return Stream.of(
+                // (NB: "Q" ist "gutmütige" Konstante, s.o.)
+                //           Expected,     Param 1,            Param 2, Operator
+                // KritischeWerte + Q
+                Arguments.of( MIN+Q,        s(MIN),             s(Q), '+'),
+                Arguments.of( MIN+DELTA+Q,  s(MIN+DELTA),    s(Q), '+'),
+                Arguments.of( 0-DELTA+Q,    s(0-DELTA),      s(Q), '+'),
+                Arguments.of( 0+Q,          s(0),            s(Q), '+'),
+                Arguments.of( 0+DELTA+Q,    s(0+DELTA),      s(Q), '+'),
+                Arguments.of( MAX-DELTA+Q,  s(MAX-DELTA),    s(Q), '+'),
+                Arguments.of( MAX+Q,        s(MAX),             s(Q), '+'),
+
+                // Q + KritischeWerte
+                Arguments. of( Q+MIN,        s(Q), s(MIN),              '+'),
+                Arguments. of( Q+MIN+DELTA,  s(Q), s(MIN+DELTA),     '+'),
+                Arguments. of( Q+0-DELTA,    s(Q), s(0-DELTA),       '+'),
+                Arguments. of( Q+0,          s(Q), s(0),             '+'),
+                Arguments. of( Q+0+DELTA,    s(Q), s(0+DELTA),       '+'),
+                Arguments. of( Q+MAX-DELTA,  s(Q), s(MAX-DELTA),     '+'),
+                Arguments. of( Q+MAX,        s(Q), s(MAX),              '+'),
+
+                // KritischeWerte - Q
+                Arguments.of( MIN-Q,        s(MIN),             s(Q), '-'),
+                Arguments.of( MIN+DELTA-Q,  s(MIN+DELTA),    s(Q), '-'),
+                Arguments.of( 0-DELTA-Q,    s(0-DELTA),      s(Q), '-'),
+                Arguments.of( 0-Q,          s(0),            s(Q), '-'),
+                Arguments.of( 0+DELTA-Q,    s(0+DELTA),      s(Q), '-'),
+                Arguments.of( MAX-DELTA-Q,  s(MAX-DELTA),    s(Q), '-'),
+                Arguments.of( MAX-Q,        s(MAX),             s(Q), '-'),
+
+                // Q - KritischeWerte
+                Arguments.of( Q-MIN,        s(Q), s(MIN),             '-'),
+                Arguments.of( Q-(MIN+DELTA),s(Q), s(MIN+DELTA),    '-'),
+                Arguments.of( Q-(0-DELTA),  s(Q), s(0-DELTA),      '-'),
+                Arguments.of( Q-0,          s(Q), s(0),            '-'),
+                Arguments.of( Q-(0+DELTA),  s(Q), s(0+DELTA),      '-'),
+                Arguments.of( Q-(MAX-DELTA),s(Q), s(MAX-DELTA),    '-'),
+                Arguments.of( Q-MAX,        s(Q), s(MAX),             '-'),
+
+                // KritischeWerte * Q
+                Arguments.of( MIN*Q,        s(MIN),             s(Q), '*'),
+                Arguments.of( (MIN+DELTA)*Q,s(MIN+DELTA),    s(Q), '*'),
+                Arguments.of( (0-DELTA)*Q,  s(0-DELTA),      s(Q), '*'),
+                Arguments.of( 0*Q,          s(0),            s(Q), '*'),
+                Arguments.of( (0+DELTA)*Q,  s(0+DELTA),      s(Q), '*'),
+                Arguments.of( (MAX-DELTA)*Q,s(MAX-DELTA),    s(Q), '*'),
+                Arguments.of( MAX*Q,        s(MAX),             s(Q), '*'),
+
+                // Q * KritischeWerte
+                Arguments.of( Q*MIN,        s(Q), s(MIN),             '*'),
+                Arguments.of( Q*(MIN+DELTA),s(Q), s(MIN+DELTA),    '*'),
+                Arguments.of( Q*(0-DELTA),  s(Q), s(0-DELTA),      '*'),
+                Arguments.of( Q*0,          s(Q), s(0),            '*'),
+                Arguments.of( Q*(0+DELTA),  s(Q), s(0+DELTA),      '*'),
+                Arguments.of( Q*(MAX-DELTA),s(Q), s(MAX-DELTA),    '*'),
+                Arguments.of( Q*MAX,        s(Q), s(MAX),             '*'),
+
+                //  KritischeWerte / Q
+                Arguments.of( MIN/Q,        s(MIN),             s(Q), '/'),
+                Arguments.of( (MIN+DELTA)/Q,s(MIN+DELTA),    s(Q), '/'),
+                Arguments.of( (0-DELTA)/Q,  s(0-DELTA),      s(Q), '/'),
+                Arguments.of( 0/Q,          s(0),            s(Q), '/'),
+                Arguments.of( (0+DELTA)/Q,  s(0+DELTA),      s(Q), '/'),
+                Arguments.of( (MAX-DELTA)/Q,s(MAX-DELTA),    s(Q), '/'),
+                Arguments.of( MAX/Q,        s(MAX),             s(Q), '/'),
+
+                //  Q / Kritsiche Werte
+                Arguments.of( Q/MIN,        s(Q), s(MIN),             '/'),
+                Arguments.of( Q/(MIN+DELTA),s(Q), s(MIN+DELTA),    '/'),
+                Arguments.of( Q/(0-DELTA),  s(Q), s(0-DELTA),      '/'),
+                //Arguments.of( Q/0,          s(Q), s(0),            '/'),  // double/0 ist erlaubt --> INFINITY
+                Arguments.of( Q/(0+DELTA),  s(Q), s(0+DELTA),      '/'),
+                Arguments.of( Q/(MAX-DELTA),s(Q), s(MAX-DELTA),    '/'),
+                Arguments.of( Q/MAX,        s(Q), s(MAX),             '/')
+        );
+    }
+    private static String s(double d)
+    {
+        return String.valueOf(d);
+    }
