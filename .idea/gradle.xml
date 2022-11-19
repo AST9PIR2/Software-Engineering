@@ -5,6 +5,17 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Patterns" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Program Files/Gradle/gradle-7.5.1" />
+        <option name="gradleJvm" value="17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Patterns" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/UZ_1/Auf2" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../Program Files/Gradle/gradle-7.5.1" />
         <option name="gradleJvm" value="17" />
