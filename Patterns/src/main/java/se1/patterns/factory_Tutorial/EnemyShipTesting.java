@@ -2,6 +2,7 @@ package se1.patterns.factory_Tutorial;
 
 import java.util.Scanner;
 
+//https://www.youtube.com/watch?v=ub0DXaeV6hA&list=PLF206E906175C7E07&index=5
 public class EnemyShipTesting {
 
     public static void main(String[] args) {
