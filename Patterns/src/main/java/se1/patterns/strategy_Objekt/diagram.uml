@@ -2,40 +2,16 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes>
-    <node x="133.33333333333334" y="-196.5">se1.patterns.strategy.Objekt_2</node>
-    <node x="127.99999999999997" y="-345.0">se1.patterns.strategy.SelectStrategy</node>
-    <node x="334.66666666666663" y="-196.5">se1.patterns.strategy.Objekt_3</node>
-    <node x="-62.00000000000014" y="-196.5">se1.patterns.strategy.Objekt_1</node>
-  </nodes>
+  <nodes />
   <notes />
-  <edges>
-    <edge source="se1.patterns.strategy.Objekt_1" target="se1.patterns.strategy.SelectStrategy" relationship="REALIZATION">
-      <point x="73.00000000000014" y="0.0" />
-      <point x="106.0" y="-158.0" />
-      <point x="106.0" y="-318.0" />
-      <point x="-72.99999999999997" y="0.0" />
-    </edge>
-    <edge source="se1.patterns.strategy.Objekt_2" target="se1.patterns.strategy.SelectStrategy" relationship="REALIZATION">
-      <point x="-73.00033333333334" y="0.0" />
-      <point x="106.0" y="-158.0" />
-      <point x="106.0" y="-318.0" />
-      <point x="-72.99999999999997" y="0.0" />
-    </edge>
-    <edge source="se1.patterns.strategy.Objekt_3" target="se1.patterns.strategy.SelectStrategy" relationship="REALIZATION">
-      <point x="3.3333333334439885E-4" y="-38.5" />
-      <point x="407.667" y="-232.5" />
-      <point x="106.0" y="-232.5" />
-      <point x="106.0" y="-318.0" />
-      <point x="-72.99999999999997" y="0.0" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="119.5" y="-221.99999999999994" />
+  <edges />
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="false" x="0.0" y="0.0" />
   <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>
     <Category>Methods</Category>
+    <Category>Properties</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
