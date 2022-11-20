@@ -6,7 +6,7 @@ public class DataCheckerDatabase {
 
     public static final ArrayList<Integer> list= new ArrayList<>();
 
-    public static void add(int data){
+    public void add(int data){
         list.add(data);
     }
 

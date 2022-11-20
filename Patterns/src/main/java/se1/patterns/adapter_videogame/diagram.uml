@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-34.66032372302216" y="306.03268061895534">se1.patterns.adapter_videogame.EnemyRobotAdapter</node>
+    <node x="-34.90533392637178" y="139.55748117159976">se1.patterns.adapter_videogame.EnemyAttacker</node>
+    <node x="208.03581315784487" y="120.86565790490133">se1.patterns.adapter_videogame.EnemyRobot</node>
+    <node x="279.8056641955685" y="305.1379195574922">se1.patterns.adapter_videogame.EnemyTank</node>
+    <node x="-92.53218200927815" y="-14.37116256332287">se1.patterns.adapter_videogame.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="se1.patterns.adapter_videogame.Client" target="se1.patterns.adapter_videogame.EnemyRobotAdapter" relationship="CREATE">
+      <point x="-35.87315191709364" y="38.5" />
+      <point x="-52.40533392637178" y="366.53268061895534" />
+      <point x="-121.0" y="0.0" />
+    </edge>
+    <edge source="se1.patterns.adapter_videogame.EnemyRobotAdapter" target="se1.patterns.adapter_videogame.EnemyRobot" relationship="TO_ONE">
+      <point x="121.00000000000001" y="0.0" />
+      <point x="215.83333333333331" y="366.53268061895534" />
+      <point x="215.83333333333331" y="393.19934728562197" />
+      <point x="262.3056641955685" y="393.19934728562197" />
+      <point x="-42.73014896227636" y="60.5" />
+    </edge>
+    <edge source="se1.patterns.adapter_videogame.EnemyTank" target="se1.patterns.adapter_videogame.EnemyAttacker" relationship="REALIZATION">
+      <point x="3.3580443147229744E-4" y="-60.499919557492206" />
+      <point x="370.806" y="274.0" />
+      <point x="56.095" y="274.0" />
+      <point x="3.339263717805352E-4" y="48.99951882840023" />
+    </edge>
+    <edge source="se1.patterns.adapter_videogame.Client" target="se1.patterns.adapter_videogame.EnemyRobot" relationship="CREATE">
+      <point x="76.0" y="0.0" />
+      <point x="305.03581315784487" y="24.12883743667713" />
+      <point x="0.0" y="-60.5" />
+    </edge>
+    <edge source="se1.patterns.adapter_videogame.Client" target="se1.patterns.adapter_videogame.EnemyTank" relationship="CREATE">
+      <point x="76.0" y="-15.0" />
+      <point x="419.53581315784487" y="9.12883743667713" />
+      <point x="48.73014896227636" y="-60.5" />
+    </edge>
+    <edge source="se1.patterns.adapter_videogame.EnemyRobotAdapter" target="se1.patterns.adapter_videogame.EnemyAttacker" relationship="REALIZATION">
+      <point x="3.237230221628806E-4" y="-60.499680618955324" />
+      <point x="86.34" y="274.0" />
+      <point x="56.095" y="274.0" />
+      <point x="3.339263717805352E-4" y="48.99951882840023" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="true" x="194.5" y="216.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

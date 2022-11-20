@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-80.21528068021124" y="89.91800111363503">se1.patterns.adapter_2.Adapter</node>
+    <node x="154.4972169934964" y="185.28841554653206">se1.patterns.adapter_2.ConcreteAdapter</node>
+    <node x="388.03537624757837" y="45.464312660995816">se1.patterns.adapter_2.Adaptee</node>
+    <node x="163.65338484752988" y="-14.143080127174159">se1.patterns.adapter_2.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="se1.patterns.adapter_2.ConcreteAdapter" target="se1.patterns.adapter_2.Adapter" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="241.49721699349638" y="114.96431266099582" />
+      <point x="87.0" y="-1.9536884526392129" />
+    </edge>
+    <edge source="se1.patterns.adapter_2.ConcreteAdapter" target="se1.patterns.adapter_2.Adaptee" relationship="GENERALIZATION">
+      <point x="87.00000000000003" y="0.0" />
+      <point x="494.0353762475783" y="223.78841554653206" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="se1.patterns.adapter_2.Client" target="se1.patterns.adapter_2.ConcreteAdapter" relationship="CREATE">
+      <point x="59.01328181913675" y="35.64308012717419" />
+      <point x="298.66666666666663" y="123.64420777326605" />
+      <point x="298.66666666666663" y="184.0" />
+      <point x="60.50278300650359" y="-39.788415546532065" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="true" x="270.0" y="134.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

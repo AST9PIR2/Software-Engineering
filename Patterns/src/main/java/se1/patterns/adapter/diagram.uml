@@ -2,12 +2,43 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="-75.0" y="-14.956348056115473">se1.patterns.adapter.Client</node>
+    <node x="-92.0" y="398.04365160987163">se1.patterns.adapter.DataCheckerAdapter</node>
+    <node x="-67.0" y="283.04365176298495">se1.patterns.adapter.DataChecker</node>
+    <node x="-96.0" y="123.04365184618518">se1.patterns.adapter.DataCheckerDatabase</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="false" x="0.0" y="0.0" />
+  <edges>
+    <edge source="se1.patterns.adapter.DataCheckerAdapter" target="se1.patterns.adapter.DataChecker" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="se1.patterns.adapter.DataCheckerAdapter" target="se1.patterns.adapter.DataCheckerDatabase" relationship="TO_ONE">
+      <point x="85.5" y="-38.5" />
+      <point x="85.5" y="49.5" />
+    </edge>
+    <edge source="se1.patterns.adapter.Client" target="se1.patterns.adapter.DataCheckerAdapter" relationship="CREATE">
+      <point x="-76.0" y="-0.0" />
+      <point x="-113.5" y="23.543651943884527" />
+      <point x="-113.5" y="436.54365160987163" />
+      <point x="-93.0" y="-0.0" />
+    </edge>
+    <edge source="se1.patterns.adapter.DataCheckerAdapter" target="se1.patterns.adapter.DataCheckerDatabase" relationship="CREATE">
+      <point x="-85.5" y="-38.5" />
+      <point x="-85.5" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="true" x="11.0" y="226.33333333333331" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
 </Diagram>
 
