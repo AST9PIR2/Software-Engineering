@@ -1,4 +1,4 @@
-package se1.patterns.strategy;
+package se1.patterns.strategy_Objekt;
 
 public class Main {
     public static void main(String[] args) {

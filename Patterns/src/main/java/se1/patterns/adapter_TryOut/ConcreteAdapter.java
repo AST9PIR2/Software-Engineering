@@ -1,4 +1,4 @@
-package se1.patterns.adapter_2;
+package se1.patterns.adapter_TryOut;
 
 public class ConcreteAdapter implements Adapter {
 

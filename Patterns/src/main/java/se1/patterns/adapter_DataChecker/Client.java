@@ -1,4 +1,4 @@
-package se1.patterns.adapter;
+package se1.patterns.adapter_DataChecker;
 
 public class Client {
     public static void main(String[] args) {

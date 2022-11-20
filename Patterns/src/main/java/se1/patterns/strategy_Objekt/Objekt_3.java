@@ -1,4 +1,4 @@
-package se1.patterns.strategy;
+package se1.patterns.strategy_Objekt;
 
 public class Objekt_3 implements SelectStrategy {
     public void select(String pattern) {

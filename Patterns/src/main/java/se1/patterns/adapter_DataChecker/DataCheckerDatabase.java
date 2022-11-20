@@ -1,4 +1,4 @@
-package se1.patterns.adapter;
+package se1.patterns.adapter_DataChecker;
 
 import java.util.ArrayList;
 
