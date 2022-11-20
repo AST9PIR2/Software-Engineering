@@ -7,15 +7,18 @@ public class Singleton {
     private static Integer id;
 
     private Singleton(){
+
         id = 0;
     }
 
-    public static void getInstance(){
+    public static Singleton getInstance(){
 
         if(firstInstance == null){
             firstInstance = new Singleton();
         }
+        return firstInstance;
     }
+
 
     public static Integer getId() {
         id += 1;
