@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-14.448171738379791" y="145.46301582393892">se1.patterns.singleton.Singleton</node>
+    <node x="-55.5" y="-14.5">se1.patterns.singleton.UniqueId</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="61.0" y="147.5" />
+  <SelectedNodes>
+    <node>se1.patterns.singleton.UniqueId</node>
+    <node>se1.patterns.singleton.Singleton</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

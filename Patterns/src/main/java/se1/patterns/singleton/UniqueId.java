@@ -9,11 +9,11 @@ public class UniqueId {
     }
 
     private static void test() {
-        var generator = Singleton.getInstance();
+        Singleton generator = Singleton.getInstance();
 
-        System.out.println("ID: " + Singleton.getId() + " with Instance " + generator);
-        System.out.println("ID: " + Singleton.getId() + " with Instance " + generator);
-        System.out.println("ID: " + Singleton.getId() + " with Instance " + generator);
-        System.out.println("ID: " + Singleton.getId() + " with Instance " + generator);
+        System.out.println("ID: " + generator.getId() + " with Instance " + generator);
+        System.out.println("ID: " + generator.getId() + " with Instance " + generator);
+        System.out.println("ID: " + generator.getId() + " with Instance " + generator);
+        System.out.println("ID: " + generator.getId() + " with Instance " + generator);
     }
 }

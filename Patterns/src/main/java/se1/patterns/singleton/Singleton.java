@@ -4,23 +4,20 @@ public class Singleton {
 
     private static Singleton firstInstance = null;
 
-    private static Integer id;
+    private static Integer id = 0;
 
-    private Singleton(){
-
-        id = 0;
-    }
+    private Singleton(){}
 
     public static Singleton getInstance(){
 
         if(firstInstance == null){
             firstInstance = new Singleton();
         }
+
         return firstInstance;
     }
 
-
-    public static Integer getId() {
+    public Integer getId() {
         id += 1;
         return id;
     }
