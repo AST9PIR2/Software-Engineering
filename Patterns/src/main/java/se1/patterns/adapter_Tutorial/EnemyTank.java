@@ -1,4 +1,4 @@
-package se1.patterns.adapter_videogame;
+package se1.patterns.adapter_Tutorial;
 
 import java.util.Random;
 

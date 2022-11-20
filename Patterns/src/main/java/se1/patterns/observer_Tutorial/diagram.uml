@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-72.3435243912126" y="356.3234756461323">se1.patterns.observer_Tutorial.GrabStocks</node>
+    <node x="140.44754320801087" y="362.38720532788284">se1.patterns.observer_Tutorial.Observer</node>
+    <node x="326.0421546817761" y="-14.460285542105822">se1.patterns.observer_Tutorial.Subject</node>
+    <node x="114.09107248413915" y="534.8284519592308">se1.patterns.observer_Tutorial.StockObserver</node>
+    <node x="11.19659835664126" y="40.31959100300128">se1.patterns.observer_Tutorial.StockGrabber</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="se1.patterns.observer_Tutorial.GrabStocks" target="se1.patterns.observer_Tutorial.StockGrabber" relationship="CREATE">
+      <point x="15.040122747853857" y="-38.5" />
+      <point x="-85.5" y="127.5" />
+    </edge>
+    <edge source="se1.patterns.observer_Tutorial.StockObserver" target="se1.patterns.observer_Tutorial.Subject" relationship="TO_ONE">
+      <point x="124.5" y="-0.0" />
+      <point x="419.0421546817761" y="584.3284519592308" />
+      <point x="-0.0" y="49.0" />
+    </edge>
+    <edge source="se1.patterns.observer_Tutorial.StockGrabber" target="se1.patterns.observer_Tutorial.Subject" relationship="REALIZATION">
+      <point x="93.0" y="-120.0" />
+      <point x="-93.0" y="13.27987654510708" />
+    </edge>
+    <edge source="se1.patterns.observer_Tutorial.GrabStocks" target="se1.patterns.observer_Tutorial.StockObserver" relationship="CREATE">
+      <point x="-0.0" y="38.5" />
+      <point x="3.656475608787403" y="584.3284519592308" />
+      <point x="-124.5" y="-0.0" />
+    </edge>
+    <edge source="se1.patterns.observer_Tutorial.StockGrabber" target="se1.patterns.observer_Tutorial.Observer" relationship="TO_MANY">
+      <point x="43.75094485136961" y="127.5" />
+      <point x="-117.0" y="-27.0" />
+    </edge>
+    <edge source="se1.patterns.observer_Tutorial.StockObserver" target="se1.patterns.observer_Tutorial.Observer" relationship="REALIZATION">
+      <point x="26.356470723871723" y="-49.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="true" x="220.0" y="309.5" />
+  <SelectedNodes>
+    <node>se1.patterns.observer_Tutorial.StockObserver</node>
+    <node>se1.patterns.observer_Tutorial.Observer</node>
+    <node>se1.patterns.observer_Tutorial.GrabStocks</node>
+    <node>se1.patterns.observer_Tutorial.Subject</node>
+    <node>se1.patterns.observer_Tutorial.StockGrabber</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
