@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e24de10-8e52-437f-977e-055613f5ffe0" name="Changes" comment="Ente Ente">
+      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/observer_Tutorial/GrabStocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/observer_Tutorial/GrabStocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UZ_2/src/main/java/se1/hu2/a3/diagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_2/src/main/java/se1/hu2/a3/diagram.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UZ_3/src/main/java/se1/hu3/factory/DesignMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_2/factory/DesignMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UZ_3/src/main/java/se1/hu3/factory/GamingMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_2/factory/GamingMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UZ_3/src/main/java/se1/hu3/factory/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_2/factory/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UZ_3/src/main/java/se1/hu3/factory/MonitorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_2/factory/MonitorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UZ_3/src/main/java/se1/hu3/factory/OfficeMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_2/factory/OfficeMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UZ_3/src/main/java/se1/hu3/factory/Resolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_2/factory/Resolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UZ_3/src/main/java/se1/hu3/factory/ScreenFactoryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_2/factory/ScreenFactoryApp.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Klausur">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Patterns">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/UZ_1/Auf2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/UZ_2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/UZ_3">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/UZ_4">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/UZ_5">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/UZ_5/src/main/java/se1/hu5/javafx">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/UZ_5">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Patterns">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2HgwZaPefbJfOKz019diG6N24Qd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowCode With Me.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pirmin.000/Downloads/Klausur_SE1_2021-1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pirmin.000\Downloads\Software-EngineeringI\UZ_3" />
+      <recent name="C:\Users\Pirmin.000\Downloads\Software-EngineeringI\UZ_3\bin\main\se1\hu3" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="se1.patterns.factory_Tutorial" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.strategy">
+    <configuration name="EntenTeich" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se1.patterns.strategy_Ente.EntenTeich" />
+      <module name="Patterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se1.patterns.strategy_Ente.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrabStocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se1.patterns.observer_Tutorial.GrabStocks" />
+      <module name="Patterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se1.patterns.observer_Tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeissgetraenkemacherAdapterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se1.hu3.adapter.HeissgetraenkemacherAdapterApp" />
+      <module name="UZ_3.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se1.hu3.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingListGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se1.patterns.composite.SingListGenerator" />
+      <module name="Patterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se1.patterns.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnknownCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se1.hu4.calculator.UnknownCalculator" />
+      <module name="UZ_4.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se1.hu4.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="adapter" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="se1.patterns.adapter_DataChecker.Client" />
+      <module name="Patterns.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="singelton" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="se1.patterns.singleton.UniqueId" />
+      <module name="Patterns.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="strategy" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="se1.patterns.strategy_Objekt.Main" />
+      <module name="Patterns.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UZ_5" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/UZ_5" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.strategy" />
+      <item itemvalue="Application.adapter" />
+      <item itemvalue="Application.singelton" />
+      <item itemvalue="Application.EntenTeich" />
+      <item itemvalue="Application.GrabStocks" />
+      <item itemvalue="Application.UnknownCalculator" />
+      <item itemvalue="Application.HeissgetraenkemacherAdapterApp" />
+      <item itemvalue="Application.SingListGenerator" />
+      <item itemvalue="Gradle.UZ_5" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GrabStocks" />
+        <item itemvalue="Application.EntenTeich" />
+        <item itemvalue="Application.UnknownCalculator" />
+        <item itemvalue="Application.SingListGenerator" />
+        <item itemvalue="Application.HeissgetraenkemacherAdapterApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e24de10-8e52-437f-977e-055613f5ffe0" name="Changes" comment="new rep" />
+      <created>1668720091164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668720091164</updated>
+      <workItem from="1668720092808" duration="813000" />
+      <workItem from="1668720931824" duration="885000" />
+      <workItem from="1668869714525" duration="2899000" />
+      <workItem from="1668874447427" duration="1966000" />
+      <workItem from="1668877926026" duration="239000" />
+      <workItem from="1668891129118" duration="6673000" />
+      <workItem from="1668931864064" duration="8289000" />
+      <workItem from="1668940963674" duration="18733000" />
+      <workItem from="1668970494983" duration="8768000" />
+      <workItem from="1669120589759" duration="695000" />
+      <workItem from="1669295480238" duration="11208000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added UZ_5 task c done">
+      <created>1668721672455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668721672455</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rechtschreibfehler in commands ausgebessert">
+      <created>1668870854102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668870854102</updated>
+    </task>
+    <task id="LOCAL-00003" summary="UML added">
+      <created>1668874599174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668874599174</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new rep">
+      <created>1668878404474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668878404474</updated>
+    </task>
+    <task id="LOCAL-00005" summary="stradegy pattern added&#10;adapter pattern added&#10;observer pattern in the making..">
+      <created>1668897767932</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668897767932</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&#10;adapter2 pattern added&#10;adapter_videogame pattern added&#10;observer pattern in the making..">
+      <created>1668939686292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668939686292</updated>
+    </task>
+    <task id="LOCAL-00007" summary="renamed adapters and strategy folder">
+      <created>1668942755680</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668942755680</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added observer_Tutorial">
+      <created>1668948847110</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668948847110</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added factory_Tutorial">
+      <created>1668952015992</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668952015992</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added factory_Tutorial Youtube_link">
+      <created>1668952113580</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668952113580</updated>
+    </task>
+    <task id="LOCAL-00011" summary="restore UZ_3, folder was corrupt">
+      <created>1668957820002</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668957820002</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Singleton refactored">
+      <created>1668958800249</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668958800249</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Composite added">
+      <created>1668962857691</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668962857691</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Ente Ente">
+      <created>1669296811542</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669296811542</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added UZ_5 task c done" />
+    <MESSAGE value="Rechtschreibfehler in commands ausgebessert" />
+    <MESSAGE value="UML added" />
+    <MESSAGE value="new rep" />
+    <MESSAGE value="stradegy pattern added&#10;adapter pattern added&#10;observer pattern in the making.." />
+    <MESSAGE value="&#10;adapter2 pattern added&#10;adapter_videogame pattern added&#10;observer pattern in the making.." />
+    <MESSAGE value="renamed adapters and strategy folder" />
+    <MESSAGE value="added observer_Tutorial" />
+    <MESSAGE value="added factory_Tutorial" />
+    <MESSAGE value="added factory_Tutorial Youtube_link" />
+    <MESSAGE value="restore UZ_3, folder was corrupt" />
+    <MESSAGE value="Singleton refactored" />
+    <MESSAGE value="Composite added" />
+    <MESSAGE value="Ente Ente" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ente Ente" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/composite/SingListGenerator.java</url>
+          <line>6</line>
+          <properties class="se1.patterns.composite.SingListGenerator" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
