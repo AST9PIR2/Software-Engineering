@@ -32,7 +32,7 @@ public class UnknownCalculatorTest {
 
     //diverse Tests
     /**
-     * @implNote is calculator off when created?
+     * @implNote is calculator off when created
      */
     @Test
     public void test_whencreatedisoff(){

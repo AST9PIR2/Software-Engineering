@@ -4,181 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e24de10-8e52-437f-977e-055613f5ffe0" name="Changes" comment="refactoring observer_Tutorial">
-      <change afterPath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE_Patterns/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE_Patterns/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE_Patterns/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE_Patterns/src/main/java/se1/se_patterns/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="6e24de10-8e52-437f-977e-055613f5ffe0" name="Changes" comment="refactoring se_patterns">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4.2/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4.2/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.4/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.5.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/7.5.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/file-system.probe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Patterns/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/adapter_DataChecker/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/adapter_DataChecker/DataChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/adapter_DataChecker/DataCheckerAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/adapter_DataChecker/DataCheckerDatabase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/adapter_TryOut/Adaptee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/adapter_TryOut/Adapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/adapter_TryOut/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/adapter_TryOut/ConcreteAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/adapter_Tutorial/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/adapter_Tutorial/EnemyAttacker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/adapter_Tutorial/EnemyRobot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/adapter_Tutorial/EnemyRobotAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/adapter_Tutorial/EnemyTank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/composite/DiscJockey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/composite/SingListGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/composite/Song.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/composite/SongComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/composite/SongGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/factory_Tutorial/BigUFOEnemyShip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/factory_Tutorial/EnemyShip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/factory_Tutorial/EnemyShipFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/factory_Tutorial/EnemyShipTesting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/factory_Tutorial/RocketEnemyShip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/factory_Tutorial/UFOEnemyShip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/observer_Tutorial/GrabStocks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/observer_Tutorial/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/observer_Tutorial/StockGrabber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/observer_Tutorial/StockObserver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/observer_Tutorial/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/singleton/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/singleton/UniqueId.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Ente/Ente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Ente/EntenTeich.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Ente/FliegtGarNicht.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Ente/FliegtMitFluegeln.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Ente/FlugVerhalten.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Ente/GummiEnte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Ente/HolzEnte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Ente/MoorEnte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Ente/QuakVerhalten.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Ente/Quaken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Ente/Quietschen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Ente/StockEnte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Ente/Stumm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Objekt/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Objekt/Objekt_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Objekt/Objekt_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Objekt/Objekt_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/classes/java/main/se1/patterns/strategy_Objekt/SelectStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SE_Patterns/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Test/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Test/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Test/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/ReadMe" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/ReadMe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_DataChecker/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_DataChecker/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_DataChecker/DataChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_DataChecker/DataChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_DataChecker/DataCheckerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_DataChecker/DataCheckerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_DataChecker/DataCheckerDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_DataChecker/DataCheckerDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_DataChecker/diagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_DataChecker/diagram.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_TryOut/Adaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_TryOut/Adaptee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_TryOut/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_TryOut/Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_TryOut/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_TryOut/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_TryOut/ConcreteAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_TryOut/ConcreteAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_TryOut/diagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_TryOut/diagram.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_Tutorial/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_Tutorial/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_Tutorial/EnemyAttacker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_Tutorial/EnemyAttacker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_Tutorial/EnemyRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_Tutorial/EnemyRobot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_Tutorial/EnemyRobotAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_Tutorial/EnemyRobotAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_Tutorial/EnemyTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_Tutorial/EnemyTank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/adapter_Tutorial/diagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/adapter_Tutorial/diagram.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/composite/DiscJockey.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/composite/DiscJockey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/composite/SingListGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/composite/SingListGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/composite/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/composite/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/composite/SongComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/composite/SongComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/composite/SongGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/composite/SongGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/composite/diagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/composite/diagram.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/factory_Tutorial/BigUFOEnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/factory_Tutorial/BigUFOEnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/factory_Tutorial/EnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/factory_Tutorial/EnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/factory_Tutorial/EnemyShipFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/factory_Tutorial/EnemyShipFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/factory_Tutorial/EnemyShipTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/factory_Tutorial/EnemyShipTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/factory_Tutorial/RocketEnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/factory_Tutorial/RocketEnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/factory_Tutorial/UFOEnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/factory_Tutorial/UFOEnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/factory_Tutorial/diagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/factory_Tutorial/diagram.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/observer_Tutorial/GrabStocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/observer_Tutorial/GrabStocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/observer_Tutorial/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/observer_Tutorial/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/observer_Tutorial/StockGrabber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/observer_Tutorial/StockGrabber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/observer_Tutorial/StockObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/observer_Tutorial/StockObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/observer_Tutorial/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/observer_Tutorial/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/observer_Tutorial/diagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/observer_Tutorial/diagram.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/singleton/UniqueId.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/singleton/UniqueId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/singleton/diagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/singleton/diagram.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Ente/Ente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Ente/Ente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Ente/EntenTeich.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Ente/EntenTeich.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Ente/FliegtGarNicht.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Ente/FliegtGarNicht.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Ente/FliegtMitFluegeln.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Ente/FliegtMitFluegeln.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Ente/FlugVerhalten.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Ente/FlugVerhalten.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Ente/GummiEnte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Ente/GummiEnte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Ente/HolzEnte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Ente/HolzEnte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Ente/MoorEnte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Ente/MoorEnte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Ente/QuakVerhalten.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Ente/QuakVerhalten.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Ente/Quaken.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Ente/Quaken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Ente/Quietschen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Ente/Quietschen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Ente/StockEnte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Ente/StockEnte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Ente/Stumm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Ente/Stumm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Objekt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Objekt/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Objekt/Objekt_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Objekt/Objekt_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Objekt/Objekt_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Objekt/Objekt_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Objekt/Objekt_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Objekt/Objekt_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Objekt/SelectStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Objekt/SelectStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns/src/main/java/se1/patterns/strategy_Objekt/diagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/main/java/se1/patterns/strategy_Objekt/diagram.uml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_3/src/main/java/se1/hu3/composite/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_3/src/main/java/se1/hu3/composite/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/5.6.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/5.6.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/5.6.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/5.6.2/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/5.6.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/5.6.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/5.6.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/5.6.2/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/5.6.2/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/5.6.2/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_5/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_5/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_5/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_5/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_5/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_5/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/build/classes/java/main/se1/hu5/javafx/Temperaturkonverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_5/build/classes/java/main/se1/hu5/javafx/Temperaturkonverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UZ_5/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_5/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE_Patterns/src/main/java/se1/se_patterns/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UZ_4/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_4/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UZ_4/src/test/java/se1/hu4/calculator/UnknownCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UZ_4/src/test/java/se1/hu4/calculator/UnknownCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,6 +54,9 @@
           <activation />
         </task>
         <task path="$PROJECT_DIR$/Patterns">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Patterns/settings.gradle">
           <activation />
         </task>
         <projects_view>
@@ -309,7 +142,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Gradle.UnknownCalculatorTest.test_whencreatedisoff">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="se1.se_patterns.patterns.adapter_DataChecker.Client" />
       <module name="SE_Patterns.main" />
@@ -345,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="se1.patterns.adapter_DataChecker.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="se1.patterns.adapter_DataChecker.Client" />
-      <module name="Test.main" />
+    <configuration name="se1.se_patterns.patterns.adapter_TryOut.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se1.se_patterns.patterns.adapter_TryOut.Client" />
+      <module name="SE_Patterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="se1.patterns.adapter_DataChecker.*" />
+          <option name="PATTERN" value="se1.se_patterns.patterns.adapter_TryOut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="se1.se_patterns.patterns.adapter_TryOut.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="se1.se_patterns.patterns.adapter_TryOut.Client" />
+    <configuration name="se1.se_patterns.patterns.adapter_Tutorial.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="se1.se_patterns.patterns.adapter_Tutorial.Client" />
       <module name="SE_Patterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="se1.se_patterns.patterns.adapter_TryOut.*" />
+          <option name="PATTERN" value="se1.se_patterns.patterns.adapter_Tutorial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,27 +222,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Patterns [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Patterns" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="UZ_5" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -431,24 +243,47 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="UnknownCalculatorTest.test_whencreatedisoff" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/UZ_4" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;se1.hu4.calculator.UnknownCalculatorTest.test_whencreatedisoff&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.strategy" />
       <item itemvalue="Application.adapter" />
       <item itemvalue="Application.singelton" />
       <item itemvalue="Application.EnemyShipTesting" />
-      <item itemvalue="Application.se1.patterns.adapter_DataChecker.Client" />
       <item itemvalue="Application.se1.se_patterns.patterns.adapter_TryOut.Client" />
+      <item itemvalue="Application.se1.se_patterns.patterns.adapter_Tutorial.Client" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Gradle.UZ_5" />
-      <item itemvalue="Gradle.Patterns [build]" />
+      <item itemvalue="Gradle.UnknownCalculatorTest.test_whencreatedisoff" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UnknownCalculatorTest.test_whencreatedisoff" />
+        <item itemvalue="Application.se1.se_patterns.patterns.adapter_Tutorial.Client" />
         <item itemvalue="Application.se1.se_patterns.patterns.adapter_TryOut.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.EnemyShipTesting" />
-        <item itemvalue="Application.se1.patterns.adapter_DataChecker.Client" />
-        <item itemvalue="Gradle.Patterns [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +308,7 @@
       <workItem from="1669295480238" duration="11615000" />
       <workItem from="1669363357766" duration="1590000" />
       <workItem from="1669364982796" duration="2052000" />
-      <workItem from="1669367615135" duration="1603000" />
+      <workItem from="1669367615135" duration="3793000" />
     </task>
     <task id="LOCAL-00001" summary="Added UZ_5 task c done">
       <created>1668721672455</created>
@@ -587,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669326251580</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="refactoring se_patterns">
+      <created>1669369488815</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669369488815</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,13 +463,14 @@
     <MESSAGE value="Composite added" />
     <MESSAGE value="Ente Ente" />
     <MESSAGE value="refactoring observer_Tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring observer_Tutorial" />
+    <MESSAGE value="refactoring se_patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring se_patterns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Test/src/main/java/se1/patterns/composite/SingListGenerator.java</url>
+          <url>file://$PROJECT_DIR$/SE_Patterns/src/main/java/se1/se_patterns/patterns/composite/SingListGenerator.java</url>
           <line>6</line>
           <properties class="se1.patterns.composite.SingListGenerator" method="main">
             <option name="EMULATED" value="true" />
