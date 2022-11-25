@@ -3,7 +3,9 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Klausur" />
-    <file type="web" url="file://$PROJECT_DIR$/Patterns" />
+    <file type="web" url="file://$PROJECT_DIR$/SE_Patterns" />
+    <file type="web" url="file://$PROJECT_DIR$/Test" />
+    <file type="web" url="file://$PROJECT_DIR$/Test" />
     <file type="web" url="file://$PROJECT_DIR$/UZ_2" />
     <file type="web" url="file://$PROJECT_DIR$/UZ_3" />
     <file type="web" url="file://$PROJECT_DIR$/UZ_4" />

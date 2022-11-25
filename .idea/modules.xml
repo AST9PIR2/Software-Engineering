@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SE_I.iml" filepath="$PROJECT_DIR$/.idea/SE_I.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adapter_DataChecker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/adapter_DataChecker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adapter_DataChecker.test.iml" filepath="$PROJECT_DIR$/.idea/modules/adapter_DataChecker.test.iml" />
     </modules>
   </component>
 </project>

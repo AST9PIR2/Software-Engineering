@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'se1.patterns.strategy'
+group 'se1.patterns'
 version '1.0-SNAPSHOT'
 
 repositories {

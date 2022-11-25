@@ -2,7 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="adapter_DataChecker" target="17" />
+      <module name="adapter_DataChecker.main" target="17" />
+      <module name="adapter_DataChecker.test" target="17" />
       <module name="Klausur" target="17" />
+      <module name="Patterns.main" target="17" />
+      <module name="Patterns.test" target="17" />
+      <module name="Test" target="17" />
       <module name="UZ_5" target="17" />
       <module name="UZ_5.main" target="17" />
       <module name="UZ_5.test" target="17" />

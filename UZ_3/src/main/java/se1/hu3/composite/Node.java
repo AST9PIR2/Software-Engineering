@@ -70,6 +70,16 @@ public abstract class Node {
         return "This node is named " + this.getName() + " with id " + this.id;
     }
 
+
+
+    public void addNode(Node node){
+        if(this.childNodes == null){
+            childNodes = new ArrayList<>();
+        }
+        this.childNodes.add(node);
+       //System.out.println("Das ist ein" + node);
+    }
+
     private void printNodes(int depth) {
         System.out.println("Tiefe " + depth + " " + this);
 
@@ -81,15 +91,6 @@ public abstract class Node {
             c_node.printNodes(depth + 1);
         }
     }
-
-    public void addNode(Node node){
-        if(this.childNodes == null){
-            childNodes = new ArrayList<>();
-        }
-        this.childNodes.add(node);
-       //System.out.println("Das ist ein" + node);
-    }
-
     public void removeNodes(Node node){
         node.shutdown();
         this.childNodes.remove(node);
